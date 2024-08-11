@@ -1,0 +1,82 @@
+/* Container for the signup form */
+.signup-container {
+  max-width: 1000px; /* Increase max-width for wider forms */
+  margin: 2rem auto; /* Center the container horizontally */
+  padding: 2rem; /* Add padding around the container */
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+}
+
+/* Style for the signup heading */
+.signup-heading {
+  text-align: center; /* Center the heading */
+  margin-bottom: 2rem; /* Space below the heading */
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold; /* Make heading bold */
+}
+
+/* Style for form columns */
+.form-columns {
+  display: flex; /* Use flexbox for layout */
+  gap: 2rem; /* Space between columns */
+}
+
+/* Style for each form column */
+.form-column {
+  flex: 1; /* Make columns equal width */
+}
+
+/* Style for form sections */
+.form-column h4 {
+  border-bottom: 2px solid #007bff; /* Blue underline for section titles */
+  padding-bottom: 0.5rem; /* Padding below the underline */
+  color: #333; /* Dark color for section titles */
+  margin-bottom: 1rem; /* Space below section titles */
+}
+
+/* Style for form labels */
+.custom-form .form-group label {
+  display: block; /* Block display for labels */
+  margin-bottom: 0.5rem; /* Space below labels */
+  color: #495057; /* Darker gray color */
+  font-weight: 500; /* Semi-bold labels */
+}
+
+/* Style for form inputs and textarea */
+.custom-form .form-control {
+  border-radius: 5px; /* More rounded corners for inputs */
+  border: 1px solid #ced4da; /* Light border */
+  padding: 0.75rem 1.25rem; /* Padding inside inputs */
+  width: 100%; /* Full width */
+}
+
+/* Style for textarea */
+.custom-form .form-control[textarea] {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 120px; /* Minimum height for textarea */
+}
+
+/* Style for dropdown select */
+.custom-form select.form-control {
+  padding: 0.75rem 1.25rem; /* Padding inside select */
+}
+
+/* Style for form buttons */
+.custom-form .btn {
+  border-radius: 5px; /* Rounded corners */
+  padding: 0.75rem 1.5rem; /* Padding */
+  font-size: 1rem; /* Font size */
+}
+
+/* Style for primary button */
+.custom-form .btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: 1px solid #007bff; /* Match border color */
+  color: #ffffff; /* White text color */
+}
+
+.custom-form .btn-primary:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}

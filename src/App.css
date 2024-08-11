@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+/* Optional custom styling for Navbar */
+/* Navbar styling */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown-item {
+  color: #333;
+}
+
+.nav-dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Adjust for alignment */
+.ml-auto {
+  margin-left: auto !important; /* Pushes the element to the right */
+}
+
+.nav-dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+

@@ -1,0 +1,63 @@
+/* Style for the login form container */
+.custom-form {
+  max-width: 500px; /* Limit the width of the form */
+  margin: 2rem auto; /* Center the form horizontally and add top and bottom margins */
+  padding: 2rem; /* Add padding inside the form */
+  background-color: #eee3e3; /* White background for the form */
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Style for the login heading */
+.login-heading {
+  text-align: center; /* Center the heading */
+  margin-bottom: 1.5rem; /* Space below the heading */
+  color: #1d2beb; /* Dark color for text */
+}
+
+/* Styling for form labels */
+.custom-form .form-label {
+  font-weight: bold; /* Make labels bold */
+  color: #551b1b; /* Dark text color for labels */
+}
+
+/* Styling for input fields */
+.custom-form .form-control {
+  border-radius: 4px; /* Rounded corners for inputs */
+  border: 1px solid #ced4da; /* Light border for inputs */
+  padding: 0.75rem 1rem; /* Add padding inside inputs */
+}
+
+/* Styling for the help text */
+.custom-form .form-text {
+  font-size: 0.875rem; /* Slightly smaller text for help messages */
+  color: #6c757d; /* Light text color for help messages */
+}
+
+/* Styling for the checkbox */
+.custom-form .form-check-input {
+  margin-top: 0.3rem; /* Adjust spacing for alignment */
+}
+
+/* Styling for form buttons */
+.custom-form .btn {
+  border-radius: 4px; /* Rounded corners for buttons */
+  padding: 0.75rem 1.25rem; /* Add padding to buttons */
+  font-size: 1rem; /* Increase font size for better readability */
+}
+
+/* Styling for primary button */
+.custom-form .btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: 1px solid #007bff; /* Match border color to background */
+}
+
+.custom-form .btn-primary:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #0056b3; /* Darker border color on hover */
+}
+
+/* Add spacing between form elements */
+.custom-form .mb-3 {
+  margin-bottom: 1rem; /* Space out form elements */
+}

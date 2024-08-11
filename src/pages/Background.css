@@ -1,0 +1,36 @@
+/* Common background styling for multiple pages */
+.background-container {
+  position: relative; /* Relative positioning for overlay */
+  overflow: hidden; /* Hide overflow to ensure content does not affect layout */
+  height: 100vh;
+  width: 100wh; /* Full viewport height */
+   /* Full viewport width */
+  background: url('background.jpg') no-repeat center center; /* Background image */
+  background-size: cover; /* Cover the container without stretching */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for overlay content */
+.content-overlay {
+  position: relative; /* Absolute positioning within the container */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center adjustment */
+  color: #fff; /* White text color for contrast */
+  text-align: center; /* Center text */
+  padding: 1rem; /* Padding around text */
+  background: rgba(219, 211, 211, 0.5); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for heading and paragraph */
+.content-overlay h1 {
+  color:rgb(37, 40, 194);
+  font-size: 3rem; /* Large font size for the heading */
+  margin-bottom: 0.5rem; /* Space below heading */
+}
+
+.content-overlay p {
+  color: rgb(115, 119, 136);
+  font-size: 2.25rem; /* Larger font size for paragraph */
+}
