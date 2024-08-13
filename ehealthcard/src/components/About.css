@@ -1,0 +1,33 @@
+
+
+
+.ab {
+    background-image: url("https://www.epacademy.lk/wp-content/uploads/2021/02/iStock-1001713236-medical-plain.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-height: 1500px;
+    max-width: 2500px;
+    text-align: center;
+}
+
+.animated-title {
+    font-size: 2.5em;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animated-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    animation: fadeIn 3s ease-in-out;
+}
+
+
+
